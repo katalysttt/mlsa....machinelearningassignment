@@ -12,7 +12,7 @@ def grade(score):
      grade = 'F'
 
 
-#TASK 2
+#TASK 3
 def calculator():
     print("Simple Calculator")
     print("addition")
@@ -40,6 +40,22 @@ def calculator():
             print("Error! Division by zero is not allowed.")
  else:
         print("Invalid choice.")
+
+#TASK 4
+def is_leap_year(year):
+ if year % 4 == 0:
+    print(year,'is a leap year')
+ elif year % 100 == 0:
+    print(year,'is a leap year')
+elif year % 400 == 0:
+    print(year,'is a leap year')
+else:
+    print( year,'is a common year')
+
+#TASK 2
+
+    
+
 
 
 
