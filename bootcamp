@@ -1,0 +1,47 @@
+#TASK 1
+def grade(score):
+ if score >= 90:
+     grade = 'A'
+ elif score >= 80:
+     grade = 'B'
+ elif score >= 70:
+     grade = 'C'
+ elif score >= 60:
+     grade = 'D'
+ else:
+     grade = 'F'
+
+
+#TASK 2
+def calculator():
+    print("Simple Calculator")
+    print("addition")
+    print("subtraction")
+    print('multiplication")
+    print("division")
+
+    choice = input("Enter your choice ('addition/subtraction/multiplication/division'): ")
+
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+
+    if choice == 'addition':
+        print(num1, "+", num2, "=", num1 + num2)
+
+    elif choice == 'subtraction':
+        print(num1, "-", num2, "=", num1 - num2)
+ elif choice == 'multiplication':
+        print(num1, "*", num2, "=", num1 * num2)
+
+    elif choice == 'division':
+        if num2 != 0:
+            print(num1, "/", num2, "=", num1 / num2)
+        else:
+            print("Error! Division by zero is not allowed.")
+ else:
+        print("Invalid choice.")
+
+
+
+
+     
